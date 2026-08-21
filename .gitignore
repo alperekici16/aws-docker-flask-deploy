@@ -1,0 +1,13 @@
+# Terraform dosyaları (Hassas Veriler)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Sırlar ve anahtarlar (AWS kimlikleri vb.)
+*.pem
+*.key
+.env
+
+# İşletim sistemi dosyaları
+.DS_Store
